@@ -1,0 +1,40 @@
+/*
+ * my-theme — a test theme for the Text (HTML) XBlock.
+ *
+ */
+
+:root,
+:host {
+  /* Design tokens for this block. Override these to retheme. */
+  --my-theme-heading-color: #c00;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--my-theme-heading-color) !important;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0 0 0.5em;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 0 0 0.5em;
+}
+
+h3 {
+  font-size: 1.25em;
+  margin: 0 0 0.5em;
+}
+
+a {
+  color: var(--my-theme-heading-color);
+}
